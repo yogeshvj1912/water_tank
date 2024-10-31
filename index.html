@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Tank Problem</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Water Tank Problem</h1>
+        <label for="block-heights">Enter Block Heights (comma-separated):</label>
+        <input type="text" id="block-heights" placeholder="e.g., 0,19,0,0,0,10,0,0,2,0,14,0,0">
+        <button onclick="calculateWater()">Calculate Water Trapped</button>
+
+        <h2>Water Trapped</h2>
+        <div id="svg-container"></div>
+        <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
